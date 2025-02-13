@@ -11,10 +11,14 @@ import { StylishButtonFourComponent } from './components/buttons/stylish-button-
 import { ThreeDButtonOneComponent } from './components/buttons/three-dbutton-one/three-dbutton-one.component';
 import { ThreeDButtonTwoComponent } from './components/buttons/three-dbutton-two/three-dbutton-two.component';
 import { ThreeDButtonThreeComponent } from './components/buttons/three-dbutton-three/three-dbutton-three.component';
+import { GenericModalComponent } from './components/modals/generic-modal/generic-modal.component';
+import { ModernModalComponent } from './components/modals/modern-modal/modern-modal.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GenericModalComponent,
+    ModernModalComponent
   ],
   imports: [
     BrowserModule,
