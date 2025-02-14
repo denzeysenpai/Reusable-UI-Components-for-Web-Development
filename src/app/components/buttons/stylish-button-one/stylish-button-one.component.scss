@@ -11,6 +11,7 @@
   background-size: 160%;
   background-position: center;
   position: relative;
+
   &:hover {
     background-position: right;
   }
@@ -32,7 +33,6 @@
     font-size: 1.2rem;
     user-select: none;
   }
-
 }
 
 .area {
