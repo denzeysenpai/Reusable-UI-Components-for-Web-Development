@@ -13,12 +13,16 @@ import { ThreeDButtonTwoComponent } from './components/buttons/three-dbutton-two
 import { ThreeDButtonThreeComponent } from './components/buttons/three-dbutton-three/three-dbutton-three.component';
 import { GenericModalComponent } from './components/modals/generic-modal/generic-modal.component';
 import { ModernModalComponent } from './components/modals/modern-modal/modern-modal.component';
+import { HeaderNavbarComponent } from './private-components/header-navbar/header-navbar.component';
+import { FooterComponent } from './private-components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GenericModalComponent,
-    ModernModalComponent
+    ModernModalComponent,
+    HeaderNavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  height: fit-content;
+  margin: 0px 10px;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 10px;
+  opacity: 0.8;
+  position: fixed;
+  border: 5px solid black;
+
+  .logo-area, .anchor-container {
+    margin: 14px 50px;
+    .anchor {
+      font-size: 1.2rem;
+      font-family: 'Albert Sans';
+      margin: auto 30px;
+      color: white;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .anchor:hover,
+    .anchor.active
+     {
+      color: rgb(229, 193, 103);
+      transition: all 0.2s ease;
+    }
+  }
+}
