@@ -6,15 +6,15 @@ import { AboutPageComponent } from './views/about-page/about-page.component';
 
 const routes: Routes = [
   {
-    path:"/",
+    path:"",
     component: LandingPageComponent
   },
   {
-    path:"/components-page",
+    path:"components-page",
     component: ComponentsPageComponent
   },
   {
-    path:"/about-page",
+    path:"about-page",
     component: AboutPageComponent
   }
 ];
